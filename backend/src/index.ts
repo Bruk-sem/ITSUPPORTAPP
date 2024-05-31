@@ -27,7 +27,7 @@ db.connect((err: Error | null) => {
     console.error('Error connecting to MySQL:', err.message);
     return;
   }
-  console.log('Connected to MySQL');
+  console.log('Connected to ikram');
 });
 
 app.post('/userlogin', async (req: Request, res: Response,next: NextFunction) => {

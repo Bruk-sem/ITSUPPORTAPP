@@ -48,6 +48,7 @@ const LoginPage: React.FC<LoginPageProps> = () => {
         </InputWrapper>
         <InputWrapper>
           <TextField label="Password" type="password" variant="outlined" value={password} fullWidth onChange={e => setPassword(e.target.value)} />
+          <TextField label="Password" type="password" variant="outlined" value={password} fullWidth onChange={e => setPassword(e.target.value)} />
         </InputWrapper>
         <Button variant="contained" color="primary" fullWidth type="submit">
           Sign In
